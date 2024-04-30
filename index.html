@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style>
+body{
+margin:0;
+padding:0;
+ background:#e0e0e0;
+}
+.searchbtn{
+background:#fff;
+border: 1px solid #f8c146;
+border-radius:50%;
+}
+.searchbtn:hover {
+ color: #fff;
+}
+.input-text:focus {
+border-color: #f8c146;   
+}
+.form-control {
+    border: 1px solid #f8c146;
+	border-radius:16px;
+	padding:12px;
+}
+.cnt{
+margin:auto;
+padding:30px;
+}
+.btn1{
+background: #E0E0E0;
+width:150px;
+border: 0.5px solid #000000;
+border-radius: 16px;
+margin:0 0 0 ;
+font-family:calibri;
+		
+}
+.block01{
+display:flex;
+justify-content:space-between;
+}
+.block02{
+width:100%;
+height:175px;
+display:flex;
+justify-content:space-between;
+margin:12px 0 12px 0;
+}
+.tier{
+display:flex;
+}
+.block22{
+background:white;
+
+padding:0;
+}
+.img2{
+height:130px;
+}
+.btn02{
+border:8px solid warning;
+border-radius:20px;
+}
+.block03{
+background:white;
+width:100%;
+margin:12px 0 12px 0;
+}
+.btn3{
+width:100%;
+border:1px solid gray;
+border-radius:16px;
+font-family:calibri;
+font-weight:bold;
+font-size:medium;
+padding:10px;
+}
+</style>
+</head>
+<body>
+	<section>
+	<div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between ml-auto">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand text-warning " href="#"> <h1> <b> k </b> </h1></a>
+            <a class = "nav-link" href = "#"> 
+				<div class="container justify-content-center">
+					<div class="row">
+						<div class="col-sm-20">
+							<div class="input-group"> <input type="text" class="form-control  outline-warning input-text">
+								<div class="input-group-append"> <button class=" searchbtn btn btn-outline-warning btn-sm bg-warning" type="button"><i class="fa fa-search text-white"></i></button> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			 </a>
+        
+            <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+             
+              <ul class="navbar-nav  ml-auto">
+                <li class="nav-item active">
+                    <a class = "nav-link text-center" href = "#"><i class= "fa fa-user text-warning"></i><br>Account </a>
+                </li>
+                <li class="nav-item">
+                    <a class = "nav-link text-center" href = "#"><i class="fa fa-file text-warning"></i><br>Order </a>
+                </li>
+                <li class="nav-item">
+                    <a class = "nav-link text-center" href = "#"> <i class="fa fa-shopping-cart text-warning"></i><br>Shopping </a>
+                </li>
+              </ul>
+             </div> 
+            
+          </nav>
+    </div>
+  	
+	<div class="cnt">
+		<h5>Recomanded product</h5><br>
+		<div class="block01">
+			<p>selected filtures:
+				<button class = " btn02 btn border border-warning">Continental<i class="fa fa-times-circle ml-2"></i></button>
+			</p>
+				<p id="slt">sort by:<select class=" btn02 border border-warning m-2 p-1" >
+									<option>Popularity</option>
+									<option>Lowest Price</option>
+									<option>Most Stock</option>
+									<option>Model A-Z</option>
+									<option>code No.</option>
+				</p></select>
+						
+		</div>
+		  <hr size="1px" color="gray">
+			<div class= "tier">		
+				<div class="block22 p-2 m-2 d-flex flex-row  bg-white">
+					<img class="img2" src="image/Auto2.jpeg">
+					<div class="block222 p-2 m-2">
+						<h5><u>Continental-Conticocontact 5</u></h5>
+						<div class="d-flex flex-row justify-content-between  flex-wrap align-items-center">
+						<img src="image/Logo_OE_Approved_-25.png">
+						<div class="p-2 m-2">195/55 R15 85V<br> SUV </div>
+						<div>Stock<i class="fa fa-check-circle" style="font-size:20px;color:green"></i><br>Price ₪334 </div>
+						<div class="p-2 m-2"> Total <br>₪1,360</div>
+						<div class="d-flex justify-content-between">
+						<div>
+							<ul class = "pagination align-items-center">
+								<li class = "page-item"> <a class = "page-link text-body" href = "#"> - </a> </li>
+								<li class = "page-item"> <a class = "page-link text-body bg-light" href ="#"> 4 </a> </li>
+								<li class = "page-item"> <a class = "page-link text-body" href ="#"> +</a> </li>
+							</ul>
+						</div>
+					<div>
+						<button class = "btn02 btn btn-warning"><i class="fa fa-shopping-cart"></i><b>Add to Cart</b></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+				
+				<div class="block22 p-2 m-2 d-flex flex-row  bg-white">
+					<img class="img2" src="image/Auto2.jpeg">
+					<div class="block222 p-2 m-2">
+					<h5><u>Continental-Conticocontact 5</u></h5>
+					<div class="d-flex flex-row justify-content-between  flex-wrap align-items-center">
+					<img src="image/Logo_OE_Approved_-25.png">
+					<div class="p-2 m-2">195/55 R15 85V<br> SUV </div>
+					<div>Stock
+					 <i class="fa fa-check-circle" style="font-size:20px;color:green"></i><br>Price ₪334 </div>
+					 <div class="p-2 m-2"> Total <br>₪1,360</div>
+					<div>
+					<ul class = "pagination align-items-center">
+					<li class = "page-item"> <a class = "page-link text-body" href = "#"> - </a> </li>
+					<li class = "page-item"> <a class = "page-link text-body bg-light" href ="#"> 4 </a> </li>
+					
+					<li class = "page-item"> <a class = "page-link text-body" href ="#"> +</a> </li>
+					</ul> </div>
+
+					<div> <button class = "btn02 btn btn-warning"><i class="fa fa-shopping-cart"></i><b>Add to Cart</b></button></div>
+					</div>
+					</div>
+					</div>
+					</div>
+							
+			<div class="block03">
+		
+			<div class="d-flex flex-row flex-wrap jus mb-3 justify-content-between align-items-center">
+  
+				
+					
+				<h5 class="p-2 m-2 text-decoration-underline"><u>Continental <br>PremiumContact<sup>Tm</sup>6</u></h5>
+				
+				<div class="p-2 m-2 "><img src="image/Logo_OE_Approved_-25.png"></div>
+				
+				<div class="p-2 m-2 ">195/55 R15 85V<br> SUV </div>
+				
+				<div class="p-2 m-2 ">Stock 
+				  <i class="fa fa-check-circle" style="font-size:20px;color:green"></i> </div>
+				
+				<div class="p-2 m-2"> Price <i class="fas fa-shekel-sign"style="font-size:12px";></i>334</div>
+				<div class="p-2 m-2 "> 
+					<ul class = "pagination align-items-center">
+
+						<li class = "page-item"> <a class = "page-link text-body" href = "#"> - </a> </li>	
+						<li class = "page-item"> <a class = "page-link text-body bg-light" href ="#"> 4 </a> </li>
+						<li class = "page-item"> <a class = "page-link text-body" href ="#"> +</a> </li>
+							
+					</ul> </div>
+				<div class="p-2 m-2 "> Total <b><i class="fas fa-shekel-sign"style="font-size:12px";></i>1,360</b></div>
+				<div class="p-2 m-2 "> <button type = "button" class = " btn02 btn btn-warning"><i class="fa fa-shopping-cart"></i><b>Add to Cart</b></button></div>
+			</div>
+			
+			
+		</div>
+			
+		<div class="block03" >
+			<div class="d-flex flex-row flex-wrap jus mb-3 justify-content-between align-items-center">
+  
+				<h5 class="p-2 m-2"><u>Contential <br>PremiumContact<sup>Tm</sup>6</u></h5>
+				
+				<div class="p-2 m-2 "><img src="image/Logo_OE_Approved_-25.png"></div>
+				
+				<div class="p-2 m-2 ">195/55 R15 85V<br> SUV </div>
+				
+				<div class="p-2 m-2 ">Stock 
+				  <i class="fa fa-exclamation-circle " style="font-size:20px;color:yellow;"></i><br><b>8 tier left</b> </div>
+				
+				<div class="p-2 m-2 "> Price <i class="fas fa-shekel-sign"style="font-size:12px";></i>334</div>
+				<div class="p-2 m-2 "> 
+					<ul class = "pagination align-items-center">
+
+						<li class = "page-item"> <a class = "page-link text-body" href = "#"> - </a> </li>	
+						<li class = "page-item"> <a class = "page-link text-body bg-light" href ="#"> 4 </a> </li>
+						<li class = "page-item"> <a class = "page-link text-body" href ="#"> +</a> </li>
+							
+					</ul> </div>
+				<div class="p-2 m-2 "> Total<b> <i class="fas fa-shekel-sign"style="font-size:12px";></i>1,360</b></div>
+				<div class="p-2 m-2 "> <button class = " btn02 btn btn-warning"><i class="fa fa-shopping-cart"></i><b>Add to Cart</b></button></div>
+			</div>
+		</div>
+			
+		<div class="block03 bd-warning">
+			<div class="d-flex flex-row flex-wrap jus mb-3 justify-content-between align-items-center">
+  
+				<h5 class="p-2 m-2" href="#" ><u>Contential <br>PremiumContact<sup>Tm</sup>6</u></h5>
+				
+				<div class="p-2 m-2 "><img src="image/Logo_OE_Approved_-25.png"></div>
+				
+				<div class="p-2 m-2 ">195/55 R15 85V<br> SUV </div>
+				
+				<div class="p-2 m-2 ">Stock 
+				  <i class="fa fa-times-circle" style="color:red;"></i><br><b class="text-danger">Back in 1 week!</b> </div>
+				
+				<div class="p-2 m-2 "> Price <i class="fas fa-shekel-sign"style="font-size:12px";></i>334</div>
+				<div class="p-2 m-2 "> 
+					<ul class = "pagination align-items-center">
+
+						<li class = "page-item"> <a class = "page-link text-body" href = "#"> - </a> </li>	
+						<li class = "page-item"> <a class = "page-link text-body bg-light" href ="#"> 4 </a> </li>
+						<li class = "page-item"> <a class = "page-link text-body" href ="#"> +</a> </li>
+							
+					</ul> </div>
+				<div class="p-2 m-2 sm "> Total<b> <i class="fas fa-shekel-sign"style="font-size:12px";></i>1,360</b></div>
+				<div class="p-2 m-2 "> <button class = "  btn02 btn btn-outline-warning text-body"><i class="fa fa-bell"></i><b>Notification</b></button></div>
+			</div>
+		</div>
+			
+			<button class="btn3"> Load more Result</button>
+		</div>
+	</div>
+	</section>
+
+</body>
+</html>
